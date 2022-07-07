@@ -1,18 +1,12 @@
 #include "main.h"
+
 /**
- * print_alphabet - function to print abc
+ * main - check the code for Holberton School students.
  *
- * Return: 0
+ * Return: Always 0.
  */
-void print_alphabet(void)
+int main(void)
 {
-        char c;
-
-        for (c = 'a'; c <= 'z'; c++)
-        {
-                _putchar(c);
-        }
-_putchar('\n');
+	print_alphabet();
+	return (0);
 }
-
-add void print_alphabet(void); to ur main.h file
